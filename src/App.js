@@ -1,11 +1,10 @@
-import * as d3 from 'd3';
+import { Home } from './components/Home';
 
 function App() {
   return (
-    <div>
-      <h1>Exoplanet Data Explorer</h1>
-      <p>Hello World</p>
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 
